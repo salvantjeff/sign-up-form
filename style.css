@@ -49,3 +49,8 @@ aside {
     width: clamp(250px, 50vw, 400px);
     text-shadow: 0 0 1px #bdbdbd;
 }
+
+.artist,
+.source {
+  text-decoration: underline;
+}
