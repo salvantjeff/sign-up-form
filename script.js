@@ -16,3 +16,13 @@ function validate(e) {
       errorMessage.setAttribute('style', 'opacity: 0;');
     }
 }
+
+function update(e) {
+    e.preventDefault();
+    if (pwd.value === pwdConfirm.value) {
+      pwd.classList.remove('invalid');
+      pwdConfirm.classList.remove('invalid');
+      errorMessage.setAttribute('style', 'opacity: 0;');
+    }
+}
+
