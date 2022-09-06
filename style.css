@@ -103,3 +103,9 @@ label {
 .footer {
     padding: 1rem 2rem 1rem;
 }
+
+.login {
+    border: none;
+    background-color: transparent;
+    color: #23cc4a;
+}
