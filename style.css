@@ -34,5 +34,9 @@ aside {
     background-size: cover;
     background-position: center;
     background-color: pink;
-
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    text-align: center;
 }
