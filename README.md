@@ -1,5 +1,7 @@
 # sign-up-form
 
+## [Live Demo](https://salvantjeff.github.io/sign-up-form/)
+
 ![Form](images/form-screen-shot.png)
 
 ## Introduction
