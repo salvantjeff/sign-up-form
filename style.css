@@ -109,3 +109,8 @@ label {
     background-color: transparent;
     color: #23cc4a;
 }
+
+input {
+    border-radius: 0.3rem;
+    padding-left: 0.3rem;
+}
