@@ -14,3 +14,9 @@ button {
   font: inherit;
   border: 1px solid #000;
 }
+
+/* body defaults */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
