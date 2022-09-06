@@ -47,7 +47,21 @@
                         </p>
                     </div>
                     <div class="right-section">
-
+                        <p>
+                            <label for="last">last Name</label>
+                            <input type="text" name="last" id="last" required="true">
+                        </p>
+                
+                        <p>
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone" maxlength="10" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" title="000 00000">
+                        </p>
+                
+                        <p>
+                            <label for="pwd-confirm">Confirm Password</label>
+                            <input type="password" name="pwd-confirm" id="pwd-confirm" required="true">
+                            <label class="error two">* passwords do not match</label>
+                        </p>
                     </div>
                 </section>
                 <p class="button">
