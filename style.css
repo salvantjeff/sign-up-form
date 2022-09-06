@@ -34,9 +34,18 @@ aside {
     background-size: cover;
     background-position: center;
     background-color: pink;
-    
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     text-align: center;
+}
+
+.title {
+    margin: 0 auto;
+    margin-top: calc(2rem + 15vh);
+    font-size: 3rem;
+    line-height: calc(1em + 0.5vh);
+    width: clamp(250px, 50vw, 400px);
+    text-shadow: 0 0 1px #bdbdbd;
 }
