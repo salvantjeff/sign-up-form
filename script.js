@@ -26,3 +26,5 @@ function update(e) {
     }
 }
 
+form.addEventListener('submit', validate);
+form.addEventListener('change', update);
