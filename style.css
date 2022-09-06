@@ -86,3 +86,7 @@ section {
     display: grid;
     gap: 1rem;
 }
+
+label {
+    display: block;
+}
