@@ -61,3 +61,8 @@ aside {
     line-height: calc(1em + 0.5vh);
     padding: 4rem 2rem 1rem;
 }
+
+.message {
+    width: clamp(20ch, 40vw, 46ch);
+    margin-bottom: 1rem;
+}
