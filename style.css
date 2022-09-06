@@ -114,3 +114,19 @@ input {
     border-radius: 0.3rem;
     padding-left: 0.3rem;
 }
+
+/* Validation */
+#pwd.invalid,
+#pwd-confirm.invalid {
+  border: 2px solid red;
+}
+
+.error {
+  opacity: 0;
+  color: red;
+  font-size: 12px;
+}
+
+.error.two {
+  opacity: 0;
+}
