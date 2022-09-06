@@ -54,3 +54,10 @@ aside {
 .source {
   text-decoration: underline;
 }
+
+/* MAIN */
+.message-box {
+    font-size: 1.5rem;
+    line-height: calc(1em + 0.5vh);
+    padding: 4rem 2rem 1rem;
+}
