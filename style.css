@@ -80,3 +80,9 @@ section {
     max-width: 600px;
     gap: 0.5rem;
 }
+
+.left-section,
+.right-section {
+    display: grid;
+    gap: 1rem;
+}
