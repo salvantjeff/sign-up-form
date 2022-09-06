@@ -20,3 +20,10 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #222;
 }
+
+/* GENERAL ELEMENTS */
+.wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
